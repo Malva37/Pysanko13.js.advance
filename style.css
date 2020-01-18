@@ -1,0 +1,81 @@
+.blockHeader {
+    background-color: gray;
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    border: 1px solid rgb(51, 49, 54);
+    border-radius: 5px;
+}
+
+.blockCenter {
+    margin: 150px auto;
+    background-color: rgb(211, 238, 211);
+    height: 250px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid rgb(3, 82, 20);
+    border-radius: 5px;
+}
+
+.block {
+    margin: 10px 100px;
+    background-color: rgb(237, 232, 232);
+    padding: 10px;
+}
+
+.blockText {
+    display: flex;
+}
+
+.badWordsTitle {
+    font-weight: 600;
+}
+
+.badWords {
+    color: red;
+
+}
+
+.inputField {
+    padding-left: 5px;
+    width: 300px;
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid white;
+}
+
+.cenzorInput {
+    margin: 20px 20px 20px 0;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.addButton,
+.resetButton {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.addButton {
+    background-color: rgb(83, 180, 83);
+    border: 1px solid rgb(3, 82, 20);
+}
+
+.resetButton {
+    background-color: rgb(214, 159, 55);
+    border: 1px solid rgb(110, 64, 4);
+}
+
+.cenzor {
+    height: 30px;
+    width: 640px;
+    border-radius: 5px;
+    background-color: rgb(198, 74, 74);
+    color: white;
+    border: 1px solid rgb(71, 4, 4);
+}
